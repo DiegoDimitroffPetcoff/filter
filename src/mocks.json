@@ -1,0 +1,121 @@
+[
+    {
+      "country": "Austria",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.08,
+      "yearly_rate_pct": 3.51
+    },
+    {
+      "country": "Belgium",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.37,
+      "yearly_rate_pct": 3.36
+    },
+    {
+      "country": "Canada",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.5,
+      "yearly_rate_pct": 2.69
+    },
+    {
+      "country": "Chile",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.27,
+      "yearly_rate_pct": 4.16
+    },
+    {
+      "country": "Estonia",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.1,
+      "yearly_rate_pct": 2.92
+    },
+    {
+      "country": "Germany",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.51,
+      "yearly_rate_pct": 2.23
+    },
+    {
+      "country": "Hungary",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": -0.04,
+      "yearly_rate_pct": 4.01
+    },
+    {
+      "country": "Iceland",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.56,
+      "yearly_rate_pct": 6.21
+    },
+    {
+      "country": "Ireland",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.2,
+      "yearly_rate_pct": 2.55
+    },
+    {
+      "country": "Luxembourg",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.25,
+      "yearly_rate_pct": 2.59
+    },
+    {
+      "country": "Norway",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": -0.15,
+      "yearly_rate_pct": 3.01
+    },
+    {
+      "country": "Portugal",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.48,
+      "yearly_rate_pct": 2.21
+    },
+    {
+      "country": "Russia",
+      "type": "CPI",
+      "period": "Mar 2022",
+      "monthly_rate_pct": 7.61,
+      "yearly_rate_pct": 16.7
+    },
+    {
+      "country": "Slovakia",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.3,
+      "yearly_rate_pct": 2.06
+    },
+    {
+      "country": "Sweden",
+      "type": "CPI",
+      "period": "Apr 2024",
+      "monthly_rate_pct": 0.3,
+      "yearly_rate_pct": 3.89
+    },
+    {
+      "country": "Switzerland",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.27,
+      "yearly_rate_pct": 1.39
+    },
+    {
+      "country": "The Netherlands",
+      "type": "CPI",
+      "period": "May 2024",
+      "monthly_rate_pct": 0.21,
+      "yearly_rate_pct": 2.72
+    }
+  ]
