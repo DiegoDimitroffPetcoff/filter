@@ -1,19 +1,17 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { FilterContext } from "../hooks/useContext";
 
-export function Filter({ filter }) {
-  const [monthly, setMonthly] = useState(0);
-  const [yearly, setYearly] = useState(0);
+export function Filter() {
+  const { filters, useFilters } = useContext(FilterContext);
 
   function handleMonthlyChange(e) {
-    setMonthly(e.target.value);
-    filter((preState) => ({
+    useFilters((preState) => ({
       ...preState,
       Monthly: e.target.value,
     }));
   }
   function handleYearlChange(e) {
-    setYearly(e.target.value);
-    filter((preState) => ({
+    useFilters((preState) => ({
       ...preState,
       Yearly: e.target.value,
     }));
@@ -28,8 +26,9 @@ export function Filter({ filter }) {
           max="5"
           step="0.01"
           onChange={handleMonthlyChange}
+          value={filters.Monthly}
         />
-        <strong>From: %{monthly}</strong>
+        <strong>From: %{filters.Monthly}</strong>
       </div>
       <div>
         <label htmlFor="yearly">Yearly</label>
@@ -39,8 +38,9 @@ export function Filter({ filter }) {
           max="5"
           step="0.01"
           onChange={handleYearlChange}
+          value={filters.Yearly}
         />
-        <strong>From: %{yearly}</strong>
+        <strong>From: %{filters.Yearly}</strong>
       </div>
     </section>
   );

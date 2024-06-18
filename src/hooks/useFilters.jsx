@@ -1,18 +1,9 @@
-import { useEffect, useState } from "react";
+import { useContext } from "react";
 import countryMocks from "../mocks.json";
+import { FilterContext } from "./useContext";
 export function usefilter() {
-  const [filters, setFilters] = useState({
-    Monthly: "all",
-    Yearly: "all",
-  });
-/* useEffect((
-try {
-  fetch(``)
-} catch (error) {
-  console.log(error);
-}
+  const { filters, useFilters } = useContext(FilterContext);
 
-),[filter]) */
   const countryFiltered = countryMocks.filter((country) => {
     return (
       (country.monthly_rate_pct >= filters.Monthly ||
@@ -21,5 +12,5 @@ try {
     );
   });
 
-  return { setFilters, countryFiltered };
+  return { useFilters, countries: countryFiltered };
 }

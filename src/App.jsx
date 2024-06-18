@@ -5,13 +5,13 @@ import { Filter } from "./components/filter";
 import { usefilter } from "./hooks/useFilters";
 
 function App() {
-  const { countryFiltered, setFilters } = usefilter();
+  const { countries } = usefilter();
 
   return (
     <>
       <header>Search Country</header>
-      <Filter filter={setFilters} />
-      <Countries countries={countryFiltered} />
+      <Filter />
+      <Countries countries={countries} />
     </>
   );
 }
